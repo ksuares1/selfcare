@@ -20,7 +20,7 @@ const Homepage=()=>{
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
+      src={require("../assets/img/product.jpg")}
       alt="Second slide"
     />
 
@@ -32,7 +32,7 @@ const Homepage=()=>{
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
+      src={require("../assets/img/sauna.jpg")}
       alt="Third slide"
     />
 
@@ -43,6 +43,7 @@ const Homepage=()=>{
   </Carousel.Item>
 </Carousel>
 </>
+
     )
 }
 
