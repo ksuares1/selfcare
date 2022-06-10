@@ -20,7 +20,7 @@ const Homepage=()=>{
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={require("../assets/img/product.jpg")}
+      src={require("../assets/img/sauna.jpg")}
       alt="Second slide"
     />
 
